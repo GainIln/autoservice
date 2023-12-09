@@ -29,14 +29,12 @@ const printButton = document.search.print;
 printButton.addEventListener("click", printForm);
 
 frash_and_floral.addEventListener("click", function () {
-	window.open('https://yandex.ru');
+	
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Показать!");
-		item = "frash_and_floral";
-		tg.MainButton.show();
+		window.open('https://yandex.ru');
 	}
 });
 light_and_refreshing.addEventListener("click", function () {
