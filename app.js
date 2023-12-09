@@ -29,6 +29,7 @@ const printButton = document.search.print;
 printButton.addEventListener("click", printForm);
 
 frash_and_floral.addEventListener("click", function () {
+	window.open('https://yandex.ru');
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
