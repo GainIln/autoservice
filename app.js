@@ -10,6 +10,24 @@ let light_and_refreshing = document.getElementById("light_and_refreshing");
 let oriental_and_exotic = document.getElementById("oriental_and_exotic");
 let confident_and_stylish = document.getElementById("confident_and_stylish");
 
+function printForm(e){
+     
+    // получаем значение поля key
+    const keyBox = document.search.key;
+    const val = keyBox.value;
+    // получаем элемент printBlock
+    const printBlock = document.getElementById("printBlock");
+    // создаем новый параграф
+    const pElement = document.createElement("p");
+    // устанавливаем у него текст
+    pElement.textContent = val;
+    // добавляем параграф в printBlock
+    printBlock.appendChild(pElement);
+}
+ 
+const printButton = document.search.print;
+printButton.addEventListener("click", printForm);
+
 frash_and_floral.addEventListener("click", function () {
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
