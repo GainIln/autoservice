@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
+	<head >
+		<meta charset="UTF-8" >
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css" >
+		<link rel="stylesheet" href="style.css">
 	</head>
-	<div class="header-pc">Header On PC</div>
-	<div class="header-mobile">Header on Mobile</div>
-	<div class="nesolestag-enadenud">
-		<h3 style="text-align:center;">Контакты</h3>
-
-		<div class="ico-wrap"> 
-			<i class="fa fa-map-marker ico-contact"><img src="https://i.postimg.cc/V6Jzt61n/1.png" align="center"></i>
-		</div>
-		<div class="meanous-andscoev">
-			<h4 class="aio-icon-title">Юридический адрес:</h4>
-			<div class="aio-icon-description">3486452, г. Самара, ул. Ленина,<br>дом 14, литер D, Кабинет # 31</div>
-		</div>
-
-		<span class="kesednsoled"></span>
-
-		<div class="ico-wrap"> 
-			<i class="fa fa-clock-o ico-contact"> <img src="222.png" align="center"> </i> 
-		</div>
+	
+	<div align="center" >
+		<div class="container" >	    
+		  <div class="inner3">
+    		    <div class="item">
+    		        <div align="center">Контакты</div>
+    		        </div>
+    		     </div>   
+				 
+			<div class="inner">
+                <div class="item">
+                    <div class="ico-wrap"> 
+    			        <i class="fa fa-map-marker ico-contact"><img src="https://i.postimg.cc/V6Jzt61n/1.png" align="center"></i>
+    		        </div>
+        			<h4 class="aio-icon-title">Юридический адрес:</h4>
+        			<div class="aio-icon-description">3486452, г. Самара, ул. Ленина,15</div>
+    		    </div>
+    		</div>
+			
+    		<div class="inner">
+                <div class="item">
+                    <div class="ico-wrap"> 
+    			        <i class="fa fa-map-marker ico-contact"><img src="https://i.postimg.cc/V6Jzt61n/1.png" align="center"></i>
+    		        </div>
+        			<h4 class="aio-icon-title">График работы компании:</h4>
+        			<div class="aio-icon-description">пн.-сб. с 10:00 до 21:00<br>вс. с 10:00 до 15:00</div>
+    		    </div>   		    
+	        </div>
+			
+    		<div class="inner">
+                <div class="item">
+                    <div class="ico-wrap"> 
+    			        <i class="fa fa-map-marker ico-contact"><img src="https://i.postimg.cc/V6Jzt61n/1.png" align="center"></i>
+    		        </div>
+        			<h4 class="aio-icon-title">Электронная почта:</h4>
+        			<div class="aio-icon-description">gainanov.ilnur@mail.ru<br>gainanov.2mail@mail.ru</div>
+    		    </div>   		    
+	        </div>		
+			
+    		<div class="inner">
+                <div class="item">
+                    <div class="ico-wrap"> 
+    			        <i class="fa fa-map-marker ico-contact"><img src="https://i.postimg.cc/V6Jzt61n/1.png" align="center"></i>
+    		        </div>
+        			<h4 class="aio-icon-title">Связь по телефону:</h4>
+        			<div class="aio-icon-description">8 (000) 081-53-78<br>8 (000) 904-52-72</div>
+    		    </div>   		    
+	        </div>	
+	        
+    		<div class="inner2">
+    		    <div class="item">
+    		        <div align="center">Связь в телеграм<br><button  class="button" type="submit" id="submit" onclick="alerted();">Перейти</button></div>
+    		        </div>
+    		     </div>   
+    		</div>  
+    		 
+	        </div>		        
 		
-		<div class="meanous-andscoev">
-			<h4 class="aio-icon-title">График работы компании:</h4>
-			<div class="aio-icon-description">пн.-сб. с 10:00 до 21:00, с перерывом на обед<br>Без выходных</div>
-		</div>
-
-		<span class="kesednsoled"></span>
-
-		<div class="ico-wrap">
-			<i class="fa fa-envelope ico-contact"><img src="3333.png" align="center"></i>
-		</div>
-		<div class="meanous-andscoev">
-			<h4 class="aio-icon-title">Электронная почта:</h4>
-			<div class="aio-icon-description">gainanov.ilnur@mail.ru<br>gainanov.2mail@mail.ru</div>
-		</div>
-
-		<span class="kesednsoled"></span>
-
-		<div class="ico-wrap">
-			<i class="fa fa-phone ico-contact"><img src="4444.png" align="center"></i>
-		</div>
-		<div class="meanous-andscoev">
-			<h4 class="aio-icon-title">Связь по телефону:</h4>
-			<div class="aio-icon-description">8 (000) 081-53-78<br>8 (000) 904-52-72</div>
-		</div>
-
-		<span class="kesednsoled"></span>
-		
-		
-		 <div class="layer1" align="center">Связь в телеграм<br><button  class="button" type="submit" id="submit" onclick="alerted();">Перейти</button></div>
-		
-
-		</div>
-</div>
+		<div class="usercard" id="usercard"></div>
+		<script src="https://telegram.org/js/telegram-web-app.js"></script>
+		<script src="app.js"></script>
+	</div>
+	</body>
+</html>
