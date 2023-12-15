@@ -1,19 +1,19 @@
-
-
 body {
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
-	color: var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
+ background: url("fon2.jpg") ;
+ 
 }
+
 .container {
 	max-width: 390px;
 }
 .inner {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
+	grid-template-columns: 1fr;
+	grid-template-rows: 85px 12px;
+	background: #F2EFE6;
+    border: 2px solid #f4983d;
+    padding: 1px;
+    margin: 9px;
 }
 .img {
 	width: 186px;
@@ -25,6 +25,7 @@ p {
 
 h1 { 
 	color: #f4983d; 
+	font-size: 22px;
 }
 
 .item {
@@ -33,19 +34,23 @@ h1 {
 .button {
 	display: inline-block;
 	padding: 10px 20px;
+	width: 200px;
+    height: 35px;
 	border: none;
 	background: rgb(4, 107, 181);
 	border-radius: 10px;
-	color: #fff;
+	color: #fffff;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 790;
 	transition: background .2s linear;
+    background-image: url('https://i.postimg.cc/D0Ht1HW9/tggg.png');
+    background-size: cover;
+	
+	
 }
 .button:hover {
 	background: lightgreen;
 }
-
-
 
 .nesolestag-enadenud {
   width: 615px;
@@ -91,18 +96,7 @@ h1 {
   margin-bottom: 8px;
 }
 
-@media (max-width: 767px) {
-  .meanous-andscoev,
-  .ico-wrap {
-  float: none;
-  text-align: center;
-  }
-  .ico-wrap {
-  margin: 0 auto 15px auto;
-  }
-}
-
-@media  screen and (min-width: 525px) {
+@media  screen and (min-width: 480px) {
   .header-pc {
     display: block
   }
@@ -111,7 +105,7 @@ h1 {
   }
 }
 
-@media  screen and (max-width: 525px) {
+@media  screen and (max-width: 480px) {
   .header-pc {
     display: none
   }
@@ -119,8 +113,6 @@ h1 {
     display: block
   }
 }
-
-
 
 .layer1 {
     background: #F2EFE6;
@@ -128,5 +120,42 @@ h1 {
     padding: 10px;
     margin: 20px;
    }
+   
+.layer2 {
+    background: #F2EFE6;
+    font-size: 19px;
+    padding: 1px;
+    margin: 1px;
+   }
+.inner2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 12px;
+	background: #F2EFE6;
+    border: 2px solid #f4983d;
+    padding: 2px;
+    margin: 10px;
+}
+.inner3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 12px 12px;
+	background: #F2EFE6;
+    border: 5px solid #f4983d;
+    padding: 2px;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: normal;
+    font-weight: bold;
+
+
+
+
+
+
+
+
+
+
 
 
