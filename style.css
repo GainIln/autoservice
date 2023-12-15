@@ -91,7 +91,7 @@ h1 {
   margin-bottom: 8px;
 }
 
-.media (max-width: 767px) {
+@media (max-width: 767px) {
   .meanous-andscoev,
   .ico-wrap {
   float: none;
