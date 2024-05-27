@@ -7,7 +7,7 @@ let item = "";
 let btn1 = document.getElementById("btn1");
 
 btn1.addEventListener("click", function () {
-  item = "1";
+  item = "666661";
 });
 
 
