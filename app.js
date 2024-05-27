@@ -15,25 +15,8 @@ if (tg.MainButton.isVisible) {
   }
 else {
   tg.MainButton.setText("Получить результат");
-  
-  var totalScore = 0;
-  for (var i = 1; i <= 5; i++) {
-        var radios = document.getElementsByName('question' + i);
-        for (var j = 0, length = radios.length; j < length; j++) {
-            if (radios[j].checked) {
-                totalScore += Number(radios[j].value);
-                break;
-            }
-        }
-    }
-    if (totalScore >= 3) {
-       item = "Вероятно, у вас проблемы с компьютером, обратитесь в сервис!";
-    } else {
-       item = "Похоже, большинство функций вашего компьютера работают нормально.";
-    }
-  }
-  tg.MainButton.show();
-  }
+  item = "2";
+ 
 });
 
 
