@@ -11,7 +11,7 @@ tg.MainButton.hide();
 }
 else {
 tg.MainButton.setText("Вывести информацию по овену");
-item = "1";
+item = "4";
 tg.MainButton.show();
 }
 });
