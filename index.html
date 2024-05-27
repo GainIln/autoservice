@@ -74,48 +74,9 @@
 		</div>
 		
 <h2 id="result-text"></h2>	
-<script>
-        let tg = window.Telegram.WebApp;
-
-tg.expand();
-
-let item = "";
-let btn1 = document.getElementById("btn1");
-
-function calculateResult() {   
-  var totalScore = 0;
-  for (var i = 1; i <= 5; i++) {
-        var radios = document.getElementsByName('question' + i);
-        for (var j = 0, length = radios.length; j < length; j++) {
-            if (radios[j].checked) {
-                totalScore += Number(radios[j].value);
-                break;
-            }
-        }
-    }
-    if (totalScore >= 3) {
-        $("#item").text('Вероятно, у вас проблемы с компьютером, обратитесь в сервис!');
-    } else {
-        $("#item").text('Похоже, большинство функций вашего компьютера работают нормально.');
-    }
-}
-
-btn1.addEventListener("click", function () {
-if (tg.MainButton.isVisible) {
-  tg.MainButton.hide();
-  }
-else {
-  tg.MainButton.setText("Вывести информацию по овену");
-  item = "1";
-  tg.MainButton.show();
-  }
-  });
-
-Telegram.WebApp.onEvent("mainButtonClicked", function () {
-tg.sendData(item);
-});
-
-</script>
+	
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js"></script>
 
 
 </body>
