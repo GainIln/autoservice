@@ -1,3 +1,23 @@
+
+		
+html {
+  background-image: url(phon.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+         font-family: Arial, sans-serif;
+          
+       
+          color: #332;
+		 
+        }
 .button-36 {
 		background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
 		border-radius: 8px;
@@ -98,12 +118,6 @@
   background-color: #e9ecef;
 }
   
-body {
-         font-family: Arial, sans-serif;
-          padding: 1px;
-         background-color: #F5F5F5;
-          color: #332;
-        }
 
 .question-block_button {
             border-radius: 21px;
@@ -114,7 +128,7 @@ body {
 			margin-left: auto;
 			margin-right: auto;
 			display: flex;
-			width: 250px;
+			width: 300px;
  
 	  align-items: center;
 	  border: 2px solid blue;
@@ -130,7 +144,7 @@ body {
 			margin-left: auto;
 			margin-right: auto;
 		
-			width: 250px;
+			width: 300px;
  
 	  align-items: center;
 	  border: 2px solid blue;
