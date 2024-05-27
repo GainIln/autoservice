@@ -14,10 +14,10 @@ if (tg.MainButton.isVisible) {
   tg.MainButton.hide();
   }
 else {
-  tg.MainButton.setText("Получить1 результат");
-  item = "2";
+  tg.MainButton.setText("Вывести информацию по овену");
+  item = "1";
   tg.MainButton.show();
- 
+  }
 });
 
 
