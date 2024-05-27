@@ -14,8 +14,9 @@ if (tg.MainButton.isVisible) {
   tg.MainButton.hide();
   }
 else {
-  tg.MainButton.setText("Получить результат");
+  tg.MainButton.setText("Получить1 результат");
   item = "2";
+  tg.MainButton.show();
  
 });
 
