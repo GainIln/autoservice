@@ -15,7 +15,23 @@ if (tg.MainButton.isVisible) {
   }
 else {
   tg.MainButton.setText("Получить результат");
-  item = "777";
+  item = "77667";
+  var totalScore = 0;
+  for (var i = 1; i <= 5; i++) {
+        var radios = document.getElementsByName('question' + i);
+        for (var j = 0, length = radios.length; j < length; j++) {
+            if (radios[j].checked) {
+                totalScore += Number(radios[j].value);
+                break;
+            }
+        }
+    }
+    if (totalScore >= 3) {
+        $("#item").text('Вероятно, у вас проблемы с компьютером, обратитесь в сервис!');
+    } else {
+        $("#item").text('Похоже, большинство функций вашего компьютера работают нормально.');
+    }
+  }
   tg.MainButton.show();
   }
 });
