@@ -7,7 +7,14 @@ let item = "";
 let btn1 = document.getElementById("btn1");
 
 btn1.addEventListener("click", function () {
-  item = "666661";
+if (tg.MainButton.isVisible) {
+  tg.MainButton.hide();
+  }
+else {
+  tg.MainButton.setText("Получить результат");
+  item = "777";
+  tg.MainButton.show();
+  }
 });
 
 
