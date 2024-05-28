@@ -41,7 +41,7 @@ if (tg.MainButton.isVisible) {
 tg.MainButton.hide();
 }
 else {
-tg.MainButton.setText("Вывести информацию по овену");
+tg.MainButton.setText("Получить результат");
 tg.MainButton.show();
 }
 });
