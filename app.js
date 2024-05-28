@@ -18,11 +18,20 @@ function calculateResult() {
             }
         }
     }
-    if (totalScore >= 3) {
-        listAsStr='Вероятно, у вас проблемы с компьютером, обратитесь в сервис!';
+    if (totalScore <= 2) {
+        listAsStr='Ваш компьютер работает нормально!';
 		document.getElementById("list").innerHTML = listAsStr;
-    } else {
-        listAsStr='Похоже, большинство функций вашего компьютера работают нормально.';
+    } 
+    if (totalScore >= 3) {
+        listAsStr='У вас могут быть незначительные проблемы, которые, возможно, можно устранить самостоятельно или помощью технической поддержки.';
+		document.getElementById("list").innerHTML = listAsStr;
+    }
+    if (totalScore >= 6) {
+        listAsStr='Вероятно есть серьёзные проблемы со своим компьютером. Обратитесь к специалисту.';
+		document.getElementById("list").innerHTML = listAsStr;
+    }
+    if (totalScore >= 9) {
+        listAsStr='Ваш компьютер вероятно нуждается в серьезном обслуживании или ремонте. Мы советуем обратиться к профессионалу.';
 		document.getElementById("list").innerHTML = listAsStr;
     }
 }
