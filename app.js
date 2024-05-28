@@ -8,8 +8,7 @@ let listAsStr = "";
 let btn1 = document.getElementById("btn1");
 
 function calculateResult() {   
-  var totalScore = 0;
-  var listAsStr;		
+  var totalScore = 0;		
   for (var i = 1; i <= 5; i++) {
         var radios = document.getElementsByName('question' + i);
         for (var j = 0, length = radios.length; j < length; j++) {
@@ -42,7 +41,7 @@ if (tg.MainButton.isVisible) {
 tg.MainButton.hide();
 }
 else {
-tg.MainButton.setText("Получить результат");
+tg.MainButton.setText("Получить результат.");
 tg.MainButton.show();
 }
 });
